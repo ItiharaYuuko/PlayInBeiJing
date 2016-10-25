@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2333a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WodeViewController">
+            <connections>
+                <outlet property="mineTableView" destination="DUr-7j-Om8" id="8YU-RP-9lK"/>
+                <outlet property="view" destination="Sul-Om-yrt" id="GOa-kG-h8g"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Sul-Om-yrt">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DUr-7j-Om8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DUr-7j-Om8" secondAttribute="trailing" id="A3a-8W-ltt"/>
+                <constraint firstItem="DUr-7j-Om8" firstAttribute="top" secondItem="Sul-Om-yrt" secondAttribute="top" id="EkM-Zi-dWi"/>
+                <constraint firstItem="DUr-7j-Om8" firstAttribute="leading" secondItem="Sul-Om-yrt" secondAttribute="leading" id="H2A-qK-4IM"/>
+                <constraint firstAttribute="bottom" secondItem="DUr-7j-Om8" secondAttribute="bottom" id="cvV-6E-8Ob"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="91" y="-34"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2333a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController">
+            <connections>
+                <outlet property="aboutUsTableView" destination="3xf-Fm-8Wm" id="kli-fi-r8l"/>
+                <outlet property="logOutBtnX" destination="x5m-9x-dW0" id="QeR-VL-X8a"/>
+                <outlet property="versionLibelX" destination="7tS-db-Se6" id="kZ1-Uk-9MG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aF2-FK-X0b">
+                    <rect key="frame" x="0.0" y="64" width="414" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginL.png" translatesAutoresizingMaskIntoConstraints="NO" id="ACL-zS-jbp">
+                            <rect key="frame" x="175" y="48" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="64" id="IuI-5B-TDG"/>
+                                <constraint firstAttribute="height" constant="64" id="pxR-wa-mSz"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="玩转帝都" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djN-se-0bw">
+                            <rect key="frame" x="172" y="127" width="70" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="AKb-IO-Kqn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本号 : 6.2.7601" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tS-db-Se6">
+                            <rect key="frame" x="156" y="153" width="103" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="djN-se-0bw" firstAttribute="centerX" secondItem="ACL-zS-jbp" secondAttribute="centerX" id="Ag3-AX-gUg"/>
+                        <constraint firstAttribute="trailing" secondItem="djN-se-0bw" secondAttribute="trailing" constant="172" id="Iao-EL-532"/>
+                        <constraint firstItem="7tS-db-Se6" firstAttribute="top" secondItem="djN-se-0bw" secondAttribute="bottom" constant="5" id="Jmr-ew-x0g"/>
+                        <constraint firstItem="djN-se-0bw" firstAttribute="top" secondItem="ACL-zS-jbp" secondAttribute="bottom" constant="15" id="L8D-B6-i5J"/>
+                        <constraint firstItem="ACL-zS-jbp" firstAttribute="centerY" secondItem="aF2-FK-X0b" secondAttribute="centerY" constant="-20" id="aCC-R6-hBF"/>
+                        <constraint firstItem="ACL-zS-jbp" firstAttribute="centerX" secondItem="aF2-FK-X0b" secondAttribute="centerX" id="fZJ-LS-MW1"/>
+                        <constraint firstItem="7tS-db-Se6" firstAttribute="centerX" secondItem="djN-se-0bw" secondAttribute="centerX" id="nh6-cW-l5t"/>
+                        <constraint firstAttribute="height" constant="200" id="qRJ-zn-Ojz"/>
+                        <constraint firstItem="djN-se-0bw" firstAttribute="leading" secondItem="aF2-FK-X0b" secondAttribute="leading" constant="172" id="vOZ-cX-RSd"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3xf-Fm-8Wm">
+                    <rect key="frame" x="0.0" y="264" width="414" height="220"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="220" id="3NZ-Py-l3a"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="xFF-bz-hCv"/>
+                        <outlet property="delegate" destination="-1" id="hho-W2-0pV"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" tag="220" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5m-9x-dW0">
+                    <rect key="frame" x="57" y="544" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.1843137255" green="0.75686274509999996" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="e82-3A-7cw"/>
+                        <constraint firstAttribute="height" constant="40" id="kHZ-bi-vdd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logoutButtonAction:" destination="-1" eventType="touchUpInside" id="lcx-PI-3KC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3xf-Fm-8Wm" firstAttribute="top" secondItem="aF2-FK-X0b" secondAttribute="bottom" id="1Do-bc-U2a"/>
+                <constraint firstItem="x5m-9x-dW0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4ba-9k-VrB"/>
+                <constraint firstAttribute="trailing" secondItem="aF2-FK-X0b" secondAttribute="trailing" id="LFF-ek-zSJ"/>
+                <constraint firstAttribute="trailing" secondItem="3xf-Fm-8Wm" secondAttribute="trailing" id="Qao-C4-O90"/>
+                <constraint firstItem="aF2-FK-X0b" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="QsY-iM-BYc"/>
+                <constraint firstItem="x5m-9x-dW0" firstAttribute="top" secondItem="3xf-Fm-8Wm" secondAttribute="bottom" constant="60" id="V7r-F0-sNZ"/>
+                <constraint firstItem="3xf-Fm-8Wm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XSz-51-bEc"/>
+                <constraint firstItem="aF2-FK-X0b" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aVN-sU-ugA"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoginL.png" width="228" height="228"/>
+    </resources>
+</document>
