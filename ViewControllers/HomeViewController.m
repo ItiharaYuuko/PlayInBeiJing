@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 #import "ShouyeViewController.h"
 #import "FaxianViewController.h"
-#import "HuodongViewController.h"
+#import "ShengHuoViewController.h"
 #import "WodeViewController.h"
 
 @interface HomeViewController ()
@@ -21,18 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createViewControllers];
+
 }
 
 -(void)createViewControllers {
     
     ShouyeViewController *shouye = [[ShouyeViewController alloc]init];
     FaxianViewController *faxian = [[FaxianViewController alloc]init];
-    HuodongViewController *huodong = [[HuodongViewController alloc]init];
+    ShengHuoViewController *ShengHuo = [[ShengHuoViewController alloc]init];
     WodeViewController *wode = [[WodeViewController alloc]init];
     
-    NSArray *array = @[shouye,faxian,huodong,wode];
-    NSArray *titleArray = @[@"首页",@"发现",@"活动",@"我的"];
-    NSArray *titleA = @[@"home@2x",@"choiceness@2x",@"active@2x",@"mine@2x"];
+    NSArray *array = @[shouye,faxian,ShengHuo,wode];
+    NSArray *titleArray = @[@"首页",@"发现",@"生活",@"我的"];
+    NSArray *titleA = @[@"home",@"choiceness",@"active",@"mine"];
     NSArray *titleB = @[@"home_h@2x",@"choiceness_h@2x",@"active_h@2x",@"mine_h@2x"];
     NSMutableArray *ViewControllers = [NSMutableArray array];
     

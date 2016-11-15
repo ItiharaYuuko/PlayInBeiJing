@@ -1,31 +1,31 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++FB62E5B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++364",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++08B69AF" : {
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++364" : {
 
     },
-    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939+++2F7352A" : {
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++5962" : {
 
     },
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++FB62E5B" : {
+    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939" : {
 
     },
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++1C38339" : {
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++08B69AF" : 0,
-    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939+++2F7352A" : 0,
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++FB62E5B" : 0,
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++1C38339" : 0
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++364" : 0,
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++5962" : 0,
+    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939" : 0,
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74502A7F-5FEE-47C8-AEF6-E8A4E63BE1C1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++08B69AF" : "",
-    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939+++2F7352A" : "PlayInBeiJing\/ThirdLibrary\/MLTransition\/",
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++FB62E5B" : "PlayInBeiJing\/",
-    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++1C38339" : ""
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++364" : "",
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++5962" : "",
+    "104af93d-25d7-6d4f-957c-7c430014b3a1++4939" : "PlayInBeiJing\/ThirdLibrary\/MLTransition\/",
+    "5a86d3a6-7742-49f5-946c-eacea1f48e21++887" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PlayInBeiJing",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -34,22 +34,22 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.20.2.16\/svn\/wecaiwu",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "104af93d-25d7-6d4f-957c-7c430014b3a1++4939+++2F7352A"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "104af93d-25d7-6d4f-957c-7c430014b3a1++4939"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++08B69AF"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++364"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++1C38339"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++5962"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++887+++FB62E5B"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5a86d3a6-7742-49f5-946c-eacea1f48e21++887"
     }
   ]
 }

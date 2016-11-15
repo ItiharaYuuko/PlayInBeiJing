@@ -8,8 +8,20 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
+#import "BaseRequest.h"//在整个工程中的任意位置可以不用包含头文件，直接用BaseRequest
+#import "HDManager.h"//加载指示器
+#import "MJRefresh.h"//刷新
 #import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "XTADScrollView.h"
+#import "JSONModel.h"
+#define HOMEURL @""
+#define PICURL @"http://pic.108tian.com/pic/"
+//屏幕宽
+#define SCREEN_W [UIScreen mainScreen].bounds.size.width
+//屏幕高
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+//宏定义 在工程中使用TEXTGRAY_COLOR，而在编译时，系统会将所有的 TEXTGRAY_COLOR 替换为 [UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:1]
 #define TEXTGRAY_COLOR [UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:1]
 
 #define CYAN_COLOR [UIColor colorWithRed:47.0 / 255.0 green:193.0 / 255.0 blue:167.0 / 255.0 alpha:1]

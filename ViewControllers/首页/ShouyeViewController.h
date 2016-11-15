@@ -7,7 +7,11 @@
 //
 
 #import "BaseViewController.h"
+#import "LeftButtonViewController.h"
 
 @interface ShouyeViewController : BaseViewController
+@property (nonatomic,strong) NSString *cityId;
+
+
 
 @end

@@ -19,6 +19,7 @@
     [[self navigationController] setNavigationBarHidden: YES] ;
     _tableViewDataArray = [[NSMutableArray alloc] init] ;
     [self configMineTableView] ;
+    NSLog(@"厉害咯我的崔") ;
 }
 
 - (void) viewWillAppear:(BOOL)animated {
